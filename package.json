@@ -1,0 +1,28 @@
+{
+  "name": "synchro-io",
+  "description": "Synchro.io Command Line Interface",
+  "version": "0.0.1",
+  "author": "Bob Dickinson <bob@synchro.io>",
+  "contributors": [{
+    "name": "Bob Dickinson",
+    "email": "bob@synchro.io"
+  }],
+  "main": "lib/synchro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SynchroLabs/SynchroCLI"
+  },
+  "bugs": {
+    "url": "https://github.com/SynchroLabs/SynchroCLI/issues"
+  },
+  "dependencies": {
+    "commander": "^2.6.0",
+    "read": "^1.0.5",
+    "wait.for": "^0.6.6"
+  },
+  "preferGlobal": "true",
+  "bin": {
+    "synchro": "lib/synchro.js"
+  },
+  "license": "MIT"
+}
