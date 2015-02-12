@@ -3,10 +3,12 @@
   "description": "Synchro Command Line Interface",
   "version": "2.0.1",
   "author": "Bob Dickinson <bob@synchro.io>",
-  "contributors": [{
-    "name": "Bob Dickinson",
-    "email": "bob@synchro.io"
-  }],
+  "contributors": [
+    {
+      "name": "Bob Dickinson",
+      "email": "bob@synchro.io"
+    }
+  ],
   "main": "lib/synchro",
   "repository": {
     "type": "git",
@@ -17,7 +19,10 @@
   },
   "dependencies": {
     "commander": "^2.6.0",
+    "ncp": "^1.0.1",
+    "npm": "^2.5.0",
     "read": "^1.0.5",
+    "request": "^2.53.0",
     "wait.for": "^0.6.6"
   },
   "preferGlobal": "true",

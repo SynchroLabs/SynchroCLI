@@ -4,7 +4,7 @@
 
 ## Install
 
-    npm install -g synchro
+    npm install synchro -g
 
 ## Documentation
 
