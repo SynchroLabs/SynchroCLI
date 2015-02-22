@@ -26,7 +26,17 @@ After authenticating, create a new directory and switch to it, then run:
 
     synchro init
 
-This will install the Synchro server application and use npm to install all required packages.  After that you can start the server by doing:
+This will install the Synchro server application and use npm to install all required packages.
+
+## Creating your first Synchro App
+
+Once Synchro has been initialized, you can create your first Synchro app by doing:
+
+    synchro new HelloWorld
+
+## Running the Synchro server
+
+You can start the server to play with your new app by doing:
 
     node app.js
 
