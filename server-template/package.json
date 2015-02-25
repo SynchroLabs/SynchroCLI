@@ -13,8 +13,8 @@
     "synchro-api": "http://[host]/dist/[token]/synchro-api-0.0.1.tgz",
     "synchro-aws": "http://[host]/dist/[token]/synchro-aws-0.0.1.tgz",
     "synchro-azure": "http://[host]/dist/[token]/synchro-azure-0.0.1.tgz",
-    "synchro-studio": "http://[host]/dist/[token]/synchro-studio-0.0.1.tgz"
-    "wait.for": "~0.6.3",
+    "synchro-studio": "http://[host]/dist/[token]/synchro-studio-0.0.1.tgz",
+    "wait.for": "~0.6.3"
   },
   "private": true,
   "scripts": {
