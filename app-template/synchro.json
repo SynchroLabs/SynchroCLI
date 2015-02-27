@@ -1,5 +1,5 @@
 {
-  "name": "synchro-app",
+  "name": "{{{name}}}",
   "version": "0.0.0",
   "description": "Synchro app",
   "mainPage": "main"

@@ -2,7 +2,7 @@
 //
 exports.View =
 {
-    title: "Synchro App",
+    title: "{{{name}}}",
     elements:
     [
         { control: "stackpanel", orientation: "Horizontal", contents: [
