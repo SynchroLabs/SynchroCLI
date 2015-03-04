@@ -1,6 +1,6 @@
 {
   "name": "{{{name}}}",
-  "version": "0.0.0",
-  "description": "Synchro app",
+  "version": "0.0.1",
+  "description": "{{{description}}}",
   "mainPage": "main"
 }

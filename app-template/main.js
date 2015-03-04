@@ -5,6 +5,8 @@ exports.View =
     title: "{{{name}}}",
     elements:
     [
+        { control: "text", value: "{{{description}}}", fontsize: 12 },
+
         { control: "stackpanel", orientation: "Horizontal", contents: [
             { control: "text", value: "Name:", fontsize: 12, width: 200, textAlignment: "Right", margin: { top: 10, right: 10 } },
             { control: "edit", fontsize: 12, width: 200, binding: "name" },
