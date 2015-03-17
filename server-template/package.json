@@ -1,6 +1,6 @@
 {
   "name": "synchro-server",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Synchro Server",
   "homepage": "http://synchro.io/",
   "dependencies": {
@@ -9,11 +9,10 @@
     "express": "~3.4.8",
     "log4js": "^0.6.21",
     "nconf": "^0.7.1",
-    "request": "^2.44.0",
-    "synchro-api": "http://[host]/dist/[token]/synchro-api-0.0.2.tgz",
-    "synchro-aws": "http://[host]/dist/[token]/synchro-aws-0.0.2.tgz",
-    "synchro-azure": "http://[host]/dist/[token]/synchro-azure-0.0.2.tgz",
-    "synchro-studio": "http://[host]/dist/[token]/synchro-studio-0.0.2.tgz",
+    "synchro-api": "http://[host]/dist/[token]/synchro-api-0.0.3.tgz",
+    "synchro-aws": "http://[host]/dist/[token]/synchro-aws-0.0.3.tgz",
+    "synchro-azure": "http://[host]/dist/[token]/synchro-azure-0.0.3.tgz",
+    "synchro-studio": "http://[host]/dist/[token]/synchro-studio-0.0.3.tgz",
     "wait.for": "~0.6.3"
   },
   "private": true,

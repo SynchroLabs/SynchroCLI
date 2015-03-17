@@ -2,5 +2,7 @@
   "name": "{{{name}}}",
   "version": "0.0.1",
   "description": "{{{description}}}",
-  "mainPage": "main"
+  "main": "main",
+  "private": true,
+  "engines":  { "synchro" : "*" } 
 }
