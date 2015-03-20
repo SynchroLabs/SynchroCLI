@@ -84,6 +84,10 @@ Create a new application in the module store and add it to the current configura
 
 Remove an app from  the current config without removing its container from the module store.
 
+### `synchro syncdeps`
+
+Ensure that the dependencies of a specified Synchro app are installed on the local server.  Not implemented yet!
+
 ### `synchro userpass`
 
 Sets/clears a username/password combination in the current configuration, where such username/password is used by the default Synchro Studio auth.  Username and hash of password are written under STUDIO_USERS in current config.
