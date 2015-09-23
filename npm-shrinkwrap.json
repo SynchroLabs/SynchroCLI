@@ -1,6 +1,6 @@
 {
   "name": "synchro",
-  "version": "2.0.4",
+  "version": "2.0.6",
   "dependencies": {
     "commander": {
       "version": "2.7.1",
@@ -1104,9 +1104,9 @@
       "resolved": "https://registry.npmjs.org/wait.for/-/wait.for-0.6.6.tgz",
       "dependencies": {
         "fibers": {
-          "version": "1.0.5",
+          "version": "1.0.7",
           "from": "fibers@>=1.0.1",
-          "resolved": "https://registry.npmjs.org/fibers/-/fibers-1.0.5.tgz"
+          "resolved": "https://registry.npmjs.org/fibers/-/fibers-1.0.7.tgz"
         }
       }
     }
