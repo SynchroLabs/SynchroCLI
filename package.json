@@ -1,7 +1,7 @@
 {
   "name": "synchro",
   "description": "Synchro Command Line Interface",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "author": "Bob Dickinson <bob@synchro.io>",
   "contributors": [
     {
@@ -25,9 +25,9 @@
     "npm": "^2.5.0",
     "read": "^1.0.5",
     "request": "^2.53.0",
-    "tar-stream": "^1.1.2",
-    "wait.for": "^0.6.6"
+    "tar-stream": "^1.1.2"
   },
+  "bundledDependencies": [ "wait.for" ],
   "preferGlobal": "true",
   "bin": {
     "synchro": "lib/synchro.js"
