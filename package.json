@@ -1,7 +1,7 @@
 {
   "name": "synchro",
   "description": "Synchro Command Line Interface",
-  "version": "2.0.9",
+  "version": "2.2.0",
   "author": "Bob Dickinson <bob@synchro.io>",
   "contributors": [
     {
@@ -18,21 +18,25 @@
     "url": "https://github.com/SynchroLabs/SynchroCLI/issues"
   },
   "dependencies": {
+    "co": "^4.6.0",
     "commander": "^2.8.1",
     "is-gzip": "^1.0.0",
     "is-tar": "^1.0.0",
+    "lodash": "^4.0.0",
     "ncp": "^1.0.1",
     "npm": "^2.5.0",
     "read": "^1.0.5",
     "request": "^2.53.0",
+    "semver": "^5.1.0",
     "tar-fs": "^1.8.1",
-    "tar-stream": "^1.1.2",
-    "wait.for": "~0.6.3"
+    "tar-stream": "^1.1.2"
   },
-  "bundledDependencies": [ "wait.for" ],
   "preferGlobal": "true",
   "bin": {
     "synchro": "lib/synchro.js"
+  },
+  "engines": {
+    "node": ">= 0.12"
   },
   "license": "MIT"
 }
