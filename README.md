@@ -88,6 +88,10 @@ Remove an app from  the current config without removing its container from the m
 
 Ensure that the dependencies of a specified Synchro app are installed on the local server.  Not implemented yet!
 
+### `synchro update`
+
+Update a Synchro server in the current working directory to the most current version.
+
 ### `synchro userpass`
 
 Sets/clears a username/password combination in the current configuration, where such username/password is used by the default Synchro Studio auth.  Username and hash of password are written under STUDIO_USERS in current config.
