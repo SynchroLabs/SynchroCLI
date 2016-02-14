@@ -70,7 +70,7 @@ Download, install, and configure a Synchro server in the current working directo
 
 ### `synchro install`
 
-Retreive a remote Synchro application and install it in the current configuration and module store.  Not implemented yet!
+Retreive a remote Synchro application and install it in the current configuration and module store.
 
 ### `synchro ls`
 
