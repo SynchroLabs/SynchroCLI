@@ -1,7 +1,7 @@
 {
   "name": "synchro",
   "description": "Synchro Command Line Interface",
-  "version": "2.2.6",
+  "version": "2.2.8",
   "author": "Bob Dickinson <bob@synchro.io>",
   "contributors": [
     {
@@ -30,7 +30,8 @@
     "request": "^2.53.0",
     "semver": "^5.1.0",
     "tar-fs": "^1.8.1",
-    "tar-stream": "^1.1.2"
+    "tar-stream": "^1.1.2",
+    "universal-analytics": "^0.3.11"
   },
   "preferGlobal": "true",
   "bin": {
