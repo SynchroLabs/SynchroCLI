@@ -1,5 +1,7 @@
 # synchro -- Synchro Command Line Interface
 
+[![Build Status](https://travis-ci.org/SynchroLabs/SynchroCLI.svg?branch=master)](https://travis-ci.org/SynchroLabs/SynchroCLI)
+
 `synchro` is a command-line tool for installing and managing your Synchro Node servers and applications.
 
 ## Synchro Quick Start
