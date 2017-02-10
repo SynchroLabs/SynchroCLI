@@ -17,6 +17,9 @@
   "bugs": {
     "url": "https://github.com/SynchroLabs/SynchroCLI/issues"
   },
+  "scripts": {
+    "test" : "npm link && mkdir test && pushd test && synchro init && synchro install https://github.com/SynchroLabs/SynchroSamples/archive/master.zip"
+  },
   "dependencies": {
     "co": "^4.6.0",
     "commander": "^2.8.1",
